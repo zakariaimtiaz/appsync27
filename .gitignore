@@ -1,0 +1,9 @@
+# Maven build output
+target/
+
+# SVN metadata
+.svn/
+
+# NetBeans config files
+nb-configuration.xml
+nbactions.xml

@@ -1,0 +1,119 @@
+.navbar {
+    margin-bottom: 2px !important;
+}
+
+.instruction-box {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.instruction-box .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.instruction-box .card-header h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.instruction-box .card-header i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.instruction-box .card-body {
+    padding: 20px;
+}
+
+.instruction-box .highlight {
+    background-color: #fff3cd;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+}
+
+.instruction-box ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.instruction-box li {
+    margin-bottom: 8px;
+    color: #495057;
+}
+
+.instruction-box .sub-list {
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.instruction-box .sub-list li {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+/* Collapse animation */
+.collapse {
+    transition: all 0.3s ease;
+}
+
+/* Chevron icon rotation */
+.chevron {
+    transition: transform 0.3s ease;
+    float: right;
+    margin-top: 3px;
+}
+
+.chevron.rotated {
+    transform: rotate(180deg);
+}
+
+
+tbody {
+    display: block;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+thead {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+.input-group-addon {
+    text-align: left !important;
+    min-width: 150px !important;
+}
+
+.input-group{
+    padding-bottom: 20px;
+}
+
+/* Custom styles for the modal */
+.modal-dialog {
+    width: 55%;
+    max-width: 60%;
+    margin: 0 auto; /* Center the modal horizontally */
+    top: 10%; /* Center the modal vertically */
+    transform: translateY(-50%); /* Center the modal vertically */
+}
