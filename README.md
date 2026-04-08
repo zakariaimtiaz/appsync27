@@ -1,5 +1,6 @@
-# appsync27
-Data sync app - act as master slave methodology
+# appsync27 - A Spring boot application for data syncronization
+A flexible server-client data synchronization framework supporting unidirectional and bidirectional database sync with version_no and sent_flag tracking.
+
 
 ## Overview
 
