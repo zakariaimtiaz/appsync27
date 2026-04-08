@@ -1,4 +1,4 @@
-# appsync27 - A Spring boot application for data syncronization
+# appsync27 - A Spring boot application for data synchronization
 A flexible server-client data synchronization framework supporting unidirectional and bidirectional database sync with version_no and sent_flag tracking.
 
 
